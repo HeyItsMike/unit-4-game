@@ -21,10 +21,10 @@ var resetAndStart = function () {
     $(".crystals").empty();
 
     var images = [
-        '/Users/HeyyItsMike/Desktop/unit-4-game/assets/images/bluecrystal.jpg', 
-        '/Users/HeyyItsMike/Desktop/unit-4-game/assets/images/greencrystal.jpg', 
-        '/Users/HeyyItsMike/Desktop/unit-4-game/assets/images/purplecrystal2.jpg', 
-        '/Users/HeyyItsMike/Desktop/unit-4-game/assets/images/redcrystal.jpg'];
+        '/assets/images/bluecrystal.jpg', 
+        '/assets/images/greencrystal.jpg', 
+        '/assets/images/purplecrystal2.jpg', 
+        '/assets/images/redcrystal.jpg'];
 
     randomResult = Math.floor(Math.random() * 101) + 19;
 
